@@ -1,0 +1,12 @@
+name: chatgpt_python_env
+dependencies:
+  - python=3.11  # Specify your Python version
+  # Add your conda dependencies below, e.g.:
+  # - numpy
+  # - pandas
+  # - pip
+  # - pip:
+  #     - some-pip-only-package
+  - pip
+  - pip:
+      - python-dotenv
